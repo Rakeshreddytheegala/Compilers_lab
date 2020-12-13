@@ -1,0 +1,12 @@
+begin
+	a:=4;
+	b:=5*4;
+	c:=5;
+	if a > 4 then b:=7;
+	while c > 0 do
+		begin
+			p:=a + b * c + 4 ;
+			c:= c - 1
+		end
+end
+	
