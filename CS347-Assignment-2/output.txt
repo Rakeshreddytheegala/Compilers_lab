@@ -1,0 +1,20 @@
+C++ Code Analyser Output: 
+Count of Object Declarations:				8
+Count of Class Definitions:				13
+Count of Constructor Definitions:			7
+Count of Inherited Class Definitions:			6
+Count of Operator Overloaded Function Definitions:	3
+
+Object Declarations:
+first: ans,f1,*f2,
+second: ans,s1,s2,s3,fin,
+nested4: *var,
+nested3: n1,*n2,n3,
+
+Class Definitions: ['first', 'second', 'third', 'fourth', 'A', 'B', 'C', 'D', 'nested1', 'nested2', 'nested3', 'nested4', 'nested5']
+
+Constructor Definitions: [('first', ''), ('first', 'int x, int y'), ('second', ''), ('second', 'int x,int y'), ('third::third', 'int x'), ('B', ''), ('C', '')]
+
+Inherited Class Definitions: ['third', 'fourth', 'B', 'C', 'D', 'nested5']
+
+Operator Overloaded Function Definitions: [('+', '(first const &f1)'), ('*', '()'), ('=', '(third const& t1)')]

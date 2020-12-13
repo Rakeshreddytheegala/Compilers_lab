@@ -1,0 +1,149 @@
+#include <iostream>
+using namespace std;
+
+class first{
+    int a,b;
+public:
+    first()
+    {
+        a=0;b=1;
+    }
+    first(int x, int y){
+        a=x;
+        b=y;
+    }
+    first operator + (first const &f1)
+    {
+        first ans;
+        ans.a=f1.a+a;
+        ans.b=f1.b+b;
+        return ans;
+    }
+};
+
+class second
+{
+    private:
+        int l;
+        int b;
+        int area;
+    public:
+        second() {
+            l=b=area=0;
+        }
+        second(int x,int y)
+        {
+            l=x;
+            b=y;
+            area=l*b;
+        }
+        second operator * ()
+        {
+            second ans;
+            ans.l=5*7;
+            ans.b=5*8;
+            return ans;
+        }
+};
+
+class third : public first
+{
+    int a,b;
+    public:
+        third(int x);
+        int getab();
+        void operator=(third const& t1)
+        {
+            a=t1.a;
+            b=t1.b;
+        }
+    second s1,s2; second s3;
+};
+
+
+third::third(int x)
+{
+    a=x;
+    b=x;
+}
+
+int third::getab()
+{
+    return a*b;
+}
+
+class fourth : public first, private second
+{
+    int tempa,tempb;
+    public:
+        int gettemp()
+        {
+            return tempa*tempb;
+        }
+};
+
+class A
+{
+    public:
+        int x;
+};
+
+class B:public A
+{
+  public:
+    B() {x=5;}
+};
+
+class C : public A
+{
+  public:
+    C() 
+    { x=10; }
+};
+
+class D : public B, public C
+{
+    public:
+        int a,b;
+};
+
+class nested1
+{
+  public:
+    class nested2
+    {
+      public:
+        int f();
+        int g();
+    };
+};
+
+
+class nested3
+{
+  private:
+    class nested4
+    {
+        int a,b;
+    };
+    nested4 *var;
+
+    class nested5 : private nested4
+    {
+      private:
+        int alpha;
+    };
+};
+
+
+int main()
+{
+ 
+    first f1,*f2;
+    second fin;
+    nested3 n1;
+    nested3 *n2,n3;
+
+
+    return 0;
+}
