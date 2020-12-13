@@ -1,0 +1,699 @@
+Id,Name,Salary
+2,Jill,30
+4,John,180
+Total number of records : 2
+-----------------------------------------
+-----------------------------------------
+
+Id,Name,Salary
+Total number of records : 0
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 3
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 4
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+5,Aman,5
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+2,Abhishek,2
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+2,Abhishek,2
+5,Aman,5
+Total number of records : 2
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+1,Mayank,5
+2,Abhishek,2
+3,Tushar,6
+4,Udbhav,1
+5,Aman,5
+6,Rohan,4
+7,Vivek,1
+8,Bindu,8
+9,Shilpi,3
+Total number of records : 9
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+4,Udbhav,1
+7,Vivek,1
+Total number of records : 2
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 10
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+1,Mayank,5
+2,Abhishek,2
+3,Tushar,6
+5,Aman,5
+6,Rohan,4
+8,Bindu,8
+9,Shilpi,3
+10,Shivani,8
+Total number of records : 8
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 12
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 13
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+9,Shilpi,3
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 15
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+1,Mayank,5
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+Error: Data types incompatible
+Total number of records : 0
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+Error: Column name does not exist in table student
+Total number of records : 0
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+1,Mayank,5
+2,Abhishek,2
+3,Tushar,6
+4,Udbhav,1
+7,Vivek,1
+Total number of records : 5
+-----------------------------------------
+-----------------------------------------
+
+Course_ID,InTake,Course_Name,Course_Type,Room,Dept_ID,Since
+206,26,DD,LAB,24,4,1993
+208,28,DF,LAB,28,7,1995
+210,30,AF,LAB,30,9,1997
+Total number of records : 3
+-----------------------------------------
+-----------------------------------------
+
+stud_id,stud_name,dept_id
+1,Mayank,5
+2,Abhishek,2
+5,Aman,5
+6,Rohan,4
+8,Bindu,8
+9,Shilpi,3
+10,Shivani,8
+Total number of records : 7
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 23
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 24
+-----------------------------------------
+-----------------------------------------
+
+stud_id stud_name 
+1 Mayank 
+2 Abhishek 
+3 Tushar 
+4 Udbhav 
+5 Aman 
+6 Rohan 
+7 Vivek 
+8 Bindu 
+9 Shilpi 
+10 Shivani 
+The number of records found: 10
+-----------------------------------------
+-----------------------------------------
+
+Course_ID Course_Name 
+201 XYZ 
+202 AB 
+203 AC 
+204 CML 
+205 CD 
+206 DD 
+207 DSE 
+208 DF 
+209 DGS 
+210 AF 
+The number of records found: 10
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 27
+-----------------------------------------
+-----------------------------------------
+
+ERROR: 3 column(s) not found.
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 29
+-----------------------------------------
+-----------------------------------------
+
+Course_ID Course_Name Dept_ID 
+201 XYZ 3 
+202 AB 4 
+203 AC 5 
+204 CML 2 
+205 CD 3 
+206 DD 4 
+207 DSE 6 
+208 DF 7 
+209 DGS 8 
+210 AF 9 
+The number of records found: 10
+-----------------------------------------
+-----------------------------------------
+
+Stud_ID Course_ID Grade 
+1 203 8 
+1 204 7 
+2 206 10 
+2 207 9 
+3 204 7 
+3 205 6 
+4 209 7 
+5 205 6 
+5 206 6 
+7 207 9 
+7 208 8 
+8 209 7 
+9 201 10 
+10 202 7 
+The number of records found: 14
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, stud_course.Stud_ID, stud_course.Course_ID, stud_course.Grade
+1,Mayank,5,1,203,8
+1,Mayank,5,1,204,7
+1,Mayank,5,2,206,10
+1,Mayank,5,2,207,9
+1,Mayank,5,3,204,7
+1,Mayank,5,3,205,6
+1,Mayank,5,4,209,7
+1,Mayank,5,5,205,6
+1,Mayank,5,5,206,6
+1,Mayank,5,7,207,9
+1,Mayank,5,7,208,8
+1,Mayank,5,8,209,7
+1,Mayank,5,9,201,10
+1,Mayank,5,10,202,7
+2,Abhishek,2,1,203,8
+2,Abhishek,2,1,204,7
+2,Abhishek,2,2,206,10
+2,Abhishek,2,2,207,9
+2,Abhishek,2,3,204,7
+2,Abhishek,2,3,205,6
+2,Abhishek,2,4,209,7
+2,Abhishek,2,5,205,6
+2,Abhishek,2,5,206,6
+2,Abhishek,2,7,207,9
+2,Abhishek,2,7,208,8
+2,Abhishek,2,8,209,7
+2,Abhishek,2,9,201,10
+2,Abhishek,2,10,202,7
+3,Tushar,6,1,203,8
+3,Tushar,6,1,204,7
+3,Tushar,6,2,206,10
+3,Tushar,6,2,207,9
+3,Tushar,6,3,204,7
+3,Tushar,6,3,205,6
+3,Tushar,6,4,209,7
+3,Tushar,6,5,205,6
+3,Tushar,6,5,206,6
+3,Tushar,6,7,207,9
+3,Tushar,6,7,208,8
+3,Tushar,6,8,209,7
+3,Tushar,6,9,201,10
+3,Tushar,6,10,202,7
+4,Udbhav,1,1,203,8
+4,Udbhav,1,1,204,7
+4,Udbhav,1,2,206,10
+4,Udbhav,1,2,207,9
+4,Udbhav,1,3,204,7
+4,Udbhav,1,3,205,6
+4,Udbhav,1,4,209,7
+4,Udbhav,1,5,205,6
+4,Udbhav,1,5,206,6
+4,Udbhav,1,7,207,9
+4,Udbhav,1,7,208,8
+4,Udbhav,1,8,209,7
+4,Udbhav,1,9,201,10
+4,Udbhav,1,10,202,7
+5,Aman,5,1,203,8
+5,Aman,5,1,204,7
+5,Aman,5,2,206,10
+5,Aman,5,2,207,9
+5,Aman,5,3,204,7
+5,Aman,5,3,205,6
+5,Aman,5,4,209,7
+5,Aman,5,5,205,6
+5,Aman,5,5,206,6
+5,Aman,5,7,207,9
+5,Aman,5,7,208,8
+5,Aman,5,8,209,7
+5,Aman,5,9,201,10
+5,Aman,5,10,202,7
+6,Rohan,4,1,203,8
+6,Rohan,4,1,204,7
+6,Rohan,4,2,206,10
+6,Rohan,4,2,207,9
+6,Rohan,4,3,204,7
+6,Rohan,4,3,205,6
+6,Rohan,4,4,209,7
+6,Rohan,4,5,205,6
+6,Rohan,4,5,206,6
+6,Rohan,4,7,207,9
+6,Rohan,4,7,208,8
+6,Rohan,4,8,209,7
+6,Rohan,4,9,201,10
+6,Rohan,4,10,202,7
+7,Vivek,1,1,203,8
+7,Vivek,1,1,204,7
+7,Vivek,1,2,206,10
+7,Vivek,1,2,207,9
+7,Vivek,1,3,204,7
+7,Vivek,1,3,205,6
+7,Vivek,1,4,209,7
+7,Vivek,1,5,205,6
+7,Vivek,1,5,206,6
+7,Vivek,1,7,207,9
+7,Vivek,1,7,208,8
+7,Vivek,1,8,209,7
+7,Vivek,1,9,201,10
+7,Vivek,1,10,202,7
+8,Bindu,8,1,203,8
+8,Bindu,8,1,204,7
+8,Bindu,8,2,206,10
+8,Bindu,8,2,207,9
+8,Bindu,8,3,204,7
+8,Bindu,8,3,205,6
+8,Bindu,8,4,209,7
+8,Bindu,8,5,205,6
+8,Bindu,8,5,206,6
+8,Bindu,8,7,207,9
+8,Bindu,8,7,208,8
+8,Bindu,8,8,209,7
+8,Bindu,8,9,201,10
+8,Bindu,8,10,202,7
+9,Shilpi,3,1,203,8
+9,Shilpi,3,1,204,7
+9,Shilpi,3,2,206,10
+9,Shilpi,3,2,207,9
+9,Shilpi,3,3,204,7
+9,Shilpi,3,3,205,6
+9,Shilpi,3,4,209,7
+9,Shilpi,3,5,205,6
+9,Shilpi,3,5,206,6
+9,Shilpi,3,7,207,9
+9,Shilpi,3,7,208,8
+9,Shilpi,3,8,209,7
+9,Shilpi,3,9,201,10
+9,Shilpi,3,10,202,7
+10,Shivani,8,1,203,8
+10,Shivani,8,1,204,7
+10,Shivani,8,2,206,10
+10,Shivani,8,2,207,9
+10,Shivani,8,3,204,7
+10,Shivani,8,3,205,6
+10,Shivani,8,4,209,7
+10,Shivani,8,5,205,6
+10,Shivani,8,5,206,6
+10,Shivani,8,7,207,9
+10,Shivani,8,7,208,8
+10,Shivani,8,8,209,7
+10,Shivani,8,9,201,10
+10,Shivani,8,10,202,7
+The number of records found: 140
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 34
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 35
+-----------------------------------------
+-----------------------------------------
+
+Table school is not present
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, department.Dept_ID, department.Dept_Name
+1,Mayank,5,1,CSE
+1,Mayank,5,2,MATHS
+1,Mayank,5,3,EEE
+1,Mayank,5,4,ECE
+1,Mayank,5,5,CIVIL
+1,Mayank,5,6,MECH
+1,Mayank,5,7,CHEM
+1,Mayank,5,8,BIOTECH
+1,Mayank,5,9,CST
+1,Mayank,5,10,IT
+1,Mayank,5,11,DESIGN
+2,Abhishek,2,1,CSE
+2,Abhishek,2,2,MATHS
+2,Abhishek,2,3,EEE
+2,Abhishek,2,4,ECE
+2,Abhishek,2,5,CIVIL
+2,Abhishek,2,6,MECH
+2,Abhishek,2,7,CHEM
+2,Abhishek,2,8,BIOTECH
+2,Abhishek,2,9,CST
+2,Abhishek,2,10,IT
+2,Abhishek,2,11,DESIGN
+3,Tushar,6,1,CSE
+3,Tushar,6,2,MATHS
+3,Tushar,6,3,EEE
+3,Tushar,6,4,ECE
+3,Tushar,6,5,CIVIL
+3,Tushar,6,6,MECH
+3,Tushar,6,7,CHEM
+3,Tushar,6,8,BIOTECH
+3,Tushar,6,9,CST
+3,Tushar,6,10,IT
+3,Tushar,6,11,DESIGN
+4,Udbhav,1,1,CSE
+4,Udbhav,1,2,MATHS
+4,Udbhav,1,3,EEE
+4,Udbhav,1,4,ECE
+4,Udbhav,1,5,CIVIL
+4,Udbhav,1,6,MECH
+4,Udbhav,1,7,CHEM
+4,Udbhav,1,8,BIOTECH
+4,Udbhav,1,9,CST
+4,Udbhav,1,10,IT
+4,Udbhav,1,11,DESIGN
+5,Aman,5,1,CSE
+5,Aman,5,2,MATHS
+5,Aman,5,3,EEE
+5,Aman,5,4,ECE
+5,Aman,5,5,CIVIL
+5,Aman,5,6,MECH
+5,Aman,5,7,CHEM
+5,Aman,5,8,BIOTECH
+5,Aman,5,9,CST
+5,Aman,5,10,IT
+5,Aman,5,11,DESIGN
+6,Rohan,4,1,CSE
+6,Rohan,4,2,MATHS
+6,Rohan,4,3,EEE
+6,Rohan,4,4,ECE
+6,Rohan,4,5,CIVIL
+6,Rohan,4,6,MECH
+6,Rohan,4,7,CHEM
+6,Rohan,4,8,BIOTECH
+6,Rohan,4,9,CST
+6,Rohan,4,10,IT
+6,Rohan,4,11,DESIGN
+7,Vivek,1,1,CSE
+7,Vivek,1,2,MATHS
+7,Vivek,1,3,EEE
+7,Vivek,1,4,ECE
+7,Vivek,1,5,CIVIL
+7,Vivek,1,6,MECH
+7,Vivek,1,7,CHEM
+7,Vivek,1,8,BIOTECH
+7,Vivek,1,9,CST
+7,Vivek,1,10,IT
+7,Vivek,1,11,DESIGN
+8,Bindu,8,1,CSE
+8,Bindu,8,2,MATHS
+8,Bindu,8,3,EEE
+8,Bindu,8,4,ECE
+8,Bindu,8,5,CIVIL
+8,Bindu,8,6,MECH
+8,Bindu,8,7,CHEM
+8,Bindu,8,8,BIOTECH
+8,Bindu,8,9,CST
+8,Bindu,8,10,IT
+8,Bindu,8,11,DESIGN
+9,Shilpi,3,1,CSE
+9,Shilpi,3,2,MATHS
+9,Shilpi,3,3,EEE
+9,Shilpi,3,4,ECE
+9,Shilpi,3,5,CIVIL
+9,Shilpi,3,6,MECH
+9,Shilpi,3,7,CHEM
+9,Shilpi,3,8,BIOTECH
+9,Shilpi,3,9,CST
+9,Shilpi,3,10,IT
+9,Shilpi,3,11,DESIGN
+10,Shivani,8,1,CSE
+10,Shivani,8,2,MATHS
+10,Shivani,8,3,EEE
+10,Shivani,8,4,ECE
+10,Shivani,8,5,CIVIL
+10,Shivani,8,6,MECH
+10,Shivani,8,7,CHEM
+10,Shivani,8,8,BIOTECH
+10,Shivani,8,9,CST
+10,Shivani,8,10,IT
+10,Shivani,8,11,DESIGN
+The number of records found: 110
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 39
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 40
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, stud_course.Stud_ID, stud_course.Course_ID, stud_course.Grade
+1,Mayank,5,1,203,8
+1,Mayank,5,1,204,7
+2,Abhishek,2,2,206,10
+2,Abhishek,2,2,207,9
+3,Tushar,6,3,204,7
+3,Tushar,6,3,205,6
+4,Udbhav,1,4,209,7
+5,Aman,5,5,205,6
+5,Aman,5,5,206,6
+7,Vivek,1,7,207,9
+7,Vivek,1,7,208,8
+8,Bindu,8,8,209,7
+9,Shilpi,3,9,201,10
+10,Shivani,8,10,202,7
+Total number of records : 14
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, department.Dept_ID, department.Dept_Name
+1,Mayank,5,5,CIVIL
+2,Abhishek,2,2,MATHS
+3,Tushar,6,6,MECH
+4,Udbhav,1,1,CSE
+5,Aman,5,5,CIVIL
+6,Rohan,4,4,ECE
+7,Vivek,1,1,CSE
+8,Bindu,8,8,BIOTECH
+9,Shilpi,3,3,EEE
+10,Shivani,8,8,BIOTECH
+Total number of records : 10
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, department.Dept_ID, department.Dept_Name
+1,Mayank,5,5,CIVIL
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 45
+-----------------------------------------
+-----------------------------------------
+
+course.Course_ID, course.InTake, course.Course_Name, course.Course_Type, course.Room, course.Dept_ID, course.Since, department.Dept_ID, department.Dept_Name
+201,45,XYZ,CLASS,24,3,1999,3,EEE
+202,16,AB,CLASS,25,4,1992,4,ECE
+203,20,AC,CLASS,24,5,1999,5,CIVIL
+204,45,CML,CLASS,24,2,1996,2,MATHS
+205,25,CD,CLASS,24,3,1999,3,EEE
+206,26,DD,LAB,24,4,1993,4,ECE
+207,27,DSE,CLASS,27,6,1994,6,MECH
+208,28,DF,LAB,28,7,1995,7,CHEM
+209,29,DGS,CLASS,29,8,1996,8,BIOTECH
+210,30,AF,LAB,30,9,1997,9,CST
+Total number of records : 10
+-----------------------------------------
+-----------------------------------------
+
+Error at line no 47: Error: Column id does not exist in table course
+Total number of records : 0
+-----------------------------------------
+-----------------------------------------
+
+course.Course_ID, course.InTake, course.Course_Name, course.Course_Type, course.Room, course.Dept_ID, course.Since, department.Dept_ID, department.Dept_Name
+201,45,XYZ,CLASS,24,3,1999,1,CSE
+201,45,XYZ,CLASS,24,3,1999,2,MATHS
+201,45,XYZ,CLASS,24,3,1999,3,EEE
+201,45,XYZ,CLASS,24,3,1999,4,ECE
+201,45,XYZ,CLASS,24,3,1999,5,CIVIL
+201,45,XYZ,CLASS,24,3,1999,6,MECH
+201,45,XYZ,CLASS,24,3,1999,7,CHEM
+201,45,XYZ,CLASS,24,3,1999,8,BIOTECH
+201,45,XYZ,CLASS,24,3,1999,9,CST
+201,45,XYZ,CLASS,24,3,1999,10,IT
+201,45,XYZ,CLASS,24,3,1999,11,DESIGN
+202,16,AB,CLASS,25,4,1992,1,CSE
+202,16,AB,CLASS,25,4,1992,2,MATHS
+202,16,AB,CLASS,25,4,1992,3,EEE
+202,16,AB,CLASS,25,4,1992,4,ECE
+202,16,AB,CLASS,25,4,1992,5,CIVIL
+202,16,AB,CLASS,25,4,1992,6,MECH
+202,16,AB,CLASS,25,4,1992,7,CHEM
+202,16,AB,CLASS,25,4,1992,8,BIOTECH
+202,16,AB,CLASS,25,4,1992,9,CST
+202,16,AB,CLASS,25,4,1992,10,IT
+202,16,AB,CLASS,25,4,1992,11,DESIGN
+203,20,AC,CLASS,24,5,1999,1,CSE
+203,20,AC,CLASS,24,5,1999,2,MATHS
+203,20,AC,CLASS,24,5,1999,3,EEE
+203,20,AC,CLASS,24,5,1999,4,ECE
+203,20,AC,CLASS,24,5,1999,5,CIVIL
+203,20,AC,CLASS,24,5,1999,6,MECH
+203,20,AC,CLASS,24,5,1999,7,CHEM
+203,20,AC,CLASS,24,5,1999,8,BIOTECH
+203,20,AC,CLASS,24,5,1999,9,CST
+203,20,AC,CLASS,24,5,1999,10,IT
+203,20,AC,CLASS,24,5,1999,11,DESIGN
+204,45,CML,CLASS,24,2,1996,1,CSE
+204,45,CML,CLASS,24,2,1996,2,MATHS
+204,45,CML,CLASS,24,2,1996,3,EEE
+204,45,CML,CLASS,24,2,1996,4,ECE
+204,45,CML,CLASS,24,2,1996,5,CIVIL
+204,45,CML,CLASS,24,2,1996,6,MECH
+204,45,CML,CLASS,24,2,1996,7,CHEM
+204,45,CML,CLASS,24,2,1996,8,BIOTECH
+204,45,CML,CLASS,24,2,1996,9,CST
+204,45,CML,CLASS,24,2,1996,10,IT
+204,45,CML,CLASS,24,2,1996,11,DESIGN
+Total number of records : 44
+-----------------------------------------
+-----------------------------------------
+
+course.Course_ID, course.InTake, course.Course_Name, course.Course_Type, course.Room, course.Dept_ID, course.Since, department.Dept_ID, department.Dept_Name
+201,45,XYZ,CLASS,24,3,1999,3,EEE
+202,16,AB,CLASS,25,4,1992,4,ECE
+203,20,AC,CLASS,24,5,1999,5,CIVIL
+204,45,CML,CLASS,24,2,1996,2,MATHS
+Total number of records : 4
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, department.Dept_ID, department.Dept_Name
+1,Mayank,5,5,CIVIL
+2,Abhishek,2,2,MATHS
+3,Tushar,6,6,MECH
+4,Udbhav,1,1,CSE
+5,Aman,5,5,CIVIL
+6,Rohan,4,4,ECE
+7,Vivek,1,1,CSE
+8,Bindu,8,8,BIOTECH
+9,Shilpi,3,3,EEE
+10,Shivani,8,8,BIOTECH
+Total number of records : 10
+-----------------------------------------
+-----------------------------------------
+
+Error at line no 51: Column id does not exist in table student or stud_course
+Total number of records : 0
+-----------------------------------------
+-----------------------------------------
+
+Error at line no 52: Column id does not exist in table student or stud_course
+Total number of records : 0
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, stud_course.Stud_ID, stud_course.Course_ID, stud_course.Grade
+1,Mayank,5,1,203,8
+2,Abhishek,2,2,206,10
+2,Abhishek,2,2,207,9
+7,Vivek,1,7,207,9
+7,Vivek,1,7,208,8
+9,Shilpi,3,9,201,10
+Total number of records : 6
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, stud_course.Stud_ID, stud_course.Course_ID, stud_course.Grade
+10,Shivani,8,10,202,7
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+Invalid Syntax: Error in line number 55
+-----------------------------------------
+-----------------------------------------
+
+student.stud_id, student.stud_name, student.dept_id, stud_course.Stud_ID, stud_course.Course_ID, stud_course.Grade
+1,Mayank,5,1,203,8
+2,Abhishek,2,2,206,10
+2,Abhishek,2,2,207,9
+7,Vivek,1,7,207,9
+7,Vivek,1,7,208,8
+9,Shilpi,3,9,201,10
+10,Shivani,8,10,202,7
+Total number of records : 7
+-----------------------------------------
+-----------------------------------------
+
+course.Course_ID, course.InTake, course.Course_Name, course.Course_Type, course.Room, course.Dept_ID, course.Since, department.Dept_ID, department.Dept_Name
+203,20,AC,CLASS,24,5,1999,5,CIVIL
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+
+department.Dept_ID, department.Dept_Name, course.Course_ID, course.InTake, course.Course_Name, course.Course_Type, course.Room, course.Dept_ID, course.Since
+5,CIVIL,203,20,AC,CLASS,24,5,1999
+Total number of records : 1
+-----------------------------------------
+-----------------------------------------
+

@@ -1,0 +1,13 @@
+Dept_ID,Dept_Name
+int,str
+1,CSE
+2,MATHS
+3,EEE
+4,ECE
+5,CIVIL
+6,MECH
+7,CHEM
+8,BIOTECH
+9,CST
+10,IT
+11,DESIGN

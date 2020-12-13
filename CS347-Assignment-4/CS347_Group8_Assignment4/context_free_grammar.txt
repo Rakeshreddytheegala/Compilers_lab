@@ -1,0 +1,50 @@
+stmts := stmt NEWLINE stmts
+        | stmt
+
+stmt := SELECT LT condition GT LP Table_Name RP
+        | PROJECT LT attribute_list GT LP Table_Name RP
+        | LP Table_Name RP CARTESIAN_PRODUCT LP Table_Name RP
+        | LP Table_Name RP EQUI_JOIN LT condition GT LP Table_Name RP
+        | %empty
+
+condition := temp_cond1 OR condition 
+            | temp_cond1
+
+temp_cond1 := temp_cond2 AND temp_cond1
+            | temp_cond2
+
+temp_cond2 := NOT LP condition RP
+            | expression
+
+expression := column op STRING
+            | STRING op column
+            | column op column
+            | column op INT
+            | INT op column
+            | LP condition RP
+
+op := LT
+    | GT
+    | LTE
+    | GTE
+    | EQUAL
+    | NE
+
+attribute_list := column COMMA attribute_list
+                | column
+
+column := column_name 
+        | Table_Name DOT column_name
+
+Table_Name := ID
+
+column_name := ID
+
+
+To generate executable:
+bison -d sqlquery.y
+flex sqlquery.lex
+gcc -o exec sqlquery.tab.c lex.yy.c helper.c -lfl -g
+
+To run executable:
+./exec < testfile/input.txt
